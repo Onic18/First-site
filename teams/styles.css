@@ -114,4 +114,13 @@ body {
 }
 .wrapper, #nav, #header, #footer{
     min-width: 768px;
-}   
+}
+img{
+	transition: 5s;
+}
+img:hover {
+	transform: scale(1.5);
+}
+img:hover .zoom {
+	transform: scale(1.5);
+}
