@@ -115,12 +115,12 @@ body {
 .wrapper, #nav, #header, #footer{
     min-width: 768px;
 }
-img{
+.zoom{
 	transition: 5s;
 }
-img:hover {
+.zoom:hover {
 	transform: scale(1.5);
 }
-img:hover .zoom {
+.zoom:hover {
 	transform: scale(1.5);
 }
